@@ -18,5 +18,8 @@ end
 
 def find_the_cheese(array_of_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.all? { |cheese| array_of_strings.include?(cheese) }
+  index = 0 
+  while index < cheese_types.length do 
+    if array_of_strings[index] == cheese_types[index]
+  end 
 end
