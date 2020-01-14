@@ -8,7 +8,7 @@ end
 
 def long_planeteer_calls(array_of_calls)
   long_words = []
-  array_of_calls.collect do 
+  array_of_calls.include? do 
     if array_of_calls
   end 
 end
