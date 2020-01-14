@@ -8,7 +8,9 @@ end
 
 def long_planeteer_calls(array_of_calls)
   long_words = []
-  p array_of_calls.collect
+  array_of_calls.collect do 
+    if array_of_calls
+  end 
 end
 
 def find_the_cheese# code an argument here
