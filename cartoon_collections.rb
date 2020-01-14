@@ -21,4 +21,5 @@ def find_the_cheese(array_of_strings)
   answer = array_of_strings.include? (cheese_types) 
   if answer == true
     return "#{answer}"
+  end
 end
